@@ -36,18 +36,15 @@
 
 .header__address {
     justify-self: end;
-}
-
-.header__address-link {
-    text-underline-offset: 3px;
-}
-
-.address {
     max-width: 240px;
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
     line-height: 24px;
+}
+
+.header__address-link {
+    text-underline-offset: 3px;
 }
 
 .cover {
@@ -236,7 +233,7 @@
    font-weight: 700;
    font-size: 40px;
    line-height: 47px;
-   text-transform: uppercase; 
+   text-transform: uppercase;
 }
 
 .about__text {
@@ -261,7 +258,7 @@
 }
 
 .footer__address-link {
-    text-underline-offset: 3px; 
+    text-underline-offset: 3px;
 }
 
 .footer__menu-list {
