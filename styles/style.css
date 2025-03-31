@@ -45,7 +45,7 @@
     line-height: 24px;
 }
 
-.universal {
+.link-underline {
     text-underline-offset: 3px;
 }
 
@@ -225,6 +225,7 @@
 
 .about__logo {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 240px;
     height: 240px;
@@ -262,7 +263,6 @@
     font-size: 18px;
     line-height: 24.3px;
     font-style: italic;
-    text-underline-offset: 3px;
 }
 
 .footer__menu-list {
@@ -284,10 +284,11 @@
 .footer__social-list {
     display: flex;
     flex-wrap: wrap;
-    justify-self: end;
+    justify-content: flex-end;
     align-items: center;
     gap: 50px 48px;
-    max-width: 240px;
+    width: 100%;
+    max-width: none;
     list-style: none;
 }
 
